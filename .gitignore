@@ -53,5 +53,7 @@ snap/
 .claude/
 .claude.json
 .sudo_as_admin_successful
+.gitconfig
+.git-credentials
 wx/
 test/
