@@ -1,0 +1,57 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Database & exports ────────────────────────────────────────────────────────
+querytracker/agents.db
+querytracker/*.csv
+querytracker/*.db
+
+# ── Personal MSWL saved files ─────────────────────────────────────────────────
+querytracker/mswl/
+
+# ── Discord bot runtime files ────────────────────────────────────────────────
+discord-bot/*.log
+discord-bot/outbox.queue
+discord-bot/monitor.log
+discord-bot/pending.log
+discord-bot/.last_read_line
+
+# ── Credentials (in ~ anyway, but belt-and-suspenders) ───────────────────────
+.anthropic_api_key
+.discord_token
+.pm_creds
+.pm_session.json
+.pm_session.json
+.querytracker_creds
+.querytracker_creds.save
+.querytracker_session.json
+
+# ── Scratch / dev artifacts ──────────────────────────────────────────────────
+qt_page_output.txt
+
+# ── Everything else in ~ that isn't our project ──────────────────────────────
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+snap/
+.cache/
+.config/
+.local/
+.gnupg/
+.pki/
+.dotnet/
+.vscode/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.claude/
+.claude.json
+.sudo_as_admin_successful
+wx/
+test/
